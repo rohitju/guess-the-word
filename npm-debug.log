@@ -1,0 +1,323 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'sleep',
+1 verbose cli   '--save' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json GTW@0.0.1 No repository field.
+6 warn package.json GTW@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'sleep', null ]
+9 verbose cache add name=undefined spec="sleep" args=["sleep",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'sleep',
+10 verbose parsed url   path: 'sleep',
+10 verbose parsed url   href: 'sleep' }
+11 silly lockFile c3ca5f78-sleep sleep
+12 verbose lock sleep C:\Users\rohitup\AppData\Roaming\npm-cache\c3ca5f78-sleep.lock
+13 silly lockFile c3ca5f78-sleep sleep
+14 silly lockFile c3ca5f78-sleep sleep
+15 verbose addNamed [ 'sleep', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile e2b4ed60-sleep sleep@
+18 verbose lock sleep@ C:\Users\rohitup\AppData\Roaming\npm-cache\e2b4ed60-sleep.lock
+19 silly addNameRange { name: 'sleep', range: '*', hasData: false }
+20 verbose url raw sleep
+21 verbose url resolving [ 'https://registry.npmjs.org/', './sleep' ]
+22 verbose url resolved https://registry.npmjs.org/sleep
+23 info trying registry request attempt 1 at 11:44:21
+24 verbose etag "1XO5INYZ9I09GV3YLSS79GJJ1"
+25 http GET https://registry.npmjs.org/sleep
+26 http 304 https://registry.npmjs.org/sleep
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Thu, 13 Feb 2014 06:14:18 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     connection: 'Keep-Alive',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     etag: '"1XO5INYZ9I09GV3YLSS79GJJ1"',
+27 silly registry.get     'cache-control': 'max-age=1',
+27 silly registry.get     vary: 'Accept' } ]
+28 verbose etag sleep from cache
+29 silly addNameRange number 2 { name: 'sleep', range: '*', hasData: true }
+30 silly addNameRange versions [ 'sleep',
+30 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.1.0', '1.1.1', '1.1.2', '1.1.3' ] ]
+31 verbose addNamed [ 'sleep', '1.1.3' ]
+32 verbose addNamed [ '1.1.3', '1.1.3' ]
+33 silly lockFile b5524579-sleep-1-1-3 sleep@1.1.3
+34 verbose lock sleep@1.1.3 C:\Users\rohitup\AppData\Roaming\npm-cache\b5524579-sleep-1-1-3.lock
+35 silly lockFile b5524579-sleep-1-1-3 sleep@1.1.3
+36 silly lockFile b5524579-sleep-1-1-3 sleep@1.1.3
+37 silly lockFile e2b4ed60-sleep sleep@
+38 silly lockFile e2b4ed60-sleep sleep@
+39 silly resolved [ { name: 'sleep',
+39 silly resolved     version: '1.1.3',
+39 silly resolved     main: './lib/index.js',
+39 silly resolved     description: 'Add sleep() and usleep() to nodejs',
+39 silly resolved     homepage: 'http://github.com/ErikDubbelboer/node-sleep',
+39 silly resolved     author: { name: 'Erik Dubbelboer', email: 'erik@dubbelboer.com' },
+39 silly resolved     engines: { node: '>=0.4.0' },
+39 silly resolved     keywords: [ 'sleep', 'usleep' ],
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'https://github.com/ErikDubbelboer/node-sleep.git' },
+39 silly resolved     repositories: [ [Object] ],
+39 silly resolved     dependencies: { mkdirp: '~0.3.5' },
+39 silly resolved     scripts: { install: 'node build.js || nodejs build.js' },
+39 silly resolved     gypfile: true,
+39 silly resolved     readme: 'sleep\n=====\n\nAdd `sleep()` and `usleep()` to nodejs.\n\nThis is mainly useful for debugging.\n\n**Sleep will block execution of all javascript!**\n===================================================\n\nOn windows the module will fall back to a while loop which will use 100% CPU!\n\nUsage\n-----\n\n`var sleep = require(\'sleep\');`\n\n* `sleep.sleep(n)`: sleep for n seconds\n* `sleep.usleep(n)`: sleep for n microseconds (1 second is 1000000 microseconds)\n\nUpdate\n------\n\nNow bulids properly using node-gyp :)\n\n',
+39 silly resolved     readmeFilename: 'README.md',
+39 silly resolved     bugs: { url: 'https://github.com/ErikDubbelboer/node-sleep/issues' },
+39 silly resolved     _id: 'sleep@1.1.3',
+39 silly resolved     _from: 'sleep@' } ]
+40 info install sleep@1.1.3 into C:\Users\rohitup\Desktop\Guess the Word
+41 info installOne sleep@1.1.3
+42 info C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep unbuild
+43 verbose tar unpack C:\Users\rohitup\AppData\Roaming\npm-cache\sleep\1.1.3\package.tgz
+44 silly lockFile 374ec131-uess-the-Word-node-modules-sleep tar://C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep
+45 verbose lock tar://C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep C:\Users\rohitup\AppData\Roaming\npm-cache\374ec131-uess-the-Word-node-modules-sleep.lock
+46 silly lockFile 2d992fe5-pm-cache-sleep-1-1-3-package-tgz tar://C:\Users\rohitup\AppData\Roaming\npm-cache\sleep\1.1.3\package.tgz
+47 verbose lock tar://C:\Users\rohitup\AppData\Roaming\npm-cache\sleep\1.1.3\package.tgz C:\Users\rohitup\AppData\Roaming\npm-cache\2d992fe5-pm-cache-sleep-1-1-3-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+51 silly gunzTarPerm extractEntry .npmignore
+52 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+55 silly gunzTarPerm extractEntry test.js
+56 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+57 silly gunzTarPerm extractEntry build.js
+58 silly gunzTarPerm modified mode [ 'build.js', 438, 420 ]
+59 silly gunzTarPerm extractEntry .jshintrc
+60 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+61 silly gunzTarPerm extractEntry lib/binary_name.js
+62 silly gunzTarPerm modified mode [ 'lib/binary_name.js', 438, 420 ]
+63 silly gunzTarPerm extractEntry lib/index.js
+64 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+65 silly gunzTarPerm extractEntry build-util/tools.js
+66 silly gunzTarPerm modified mode [ 'build-util/tools.js', 438, 420 ]
+67 silly gunzTarPerm extractEntry binding.gyp
+68 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+69 silly gunzTarPerm extractEntry sleep.cc
+70 silly gunzTarPerm modified mode [ 'sleep.cc', 438, 420 ]
+71 silly gunzTarPerm extractEntry .jshintignore
+72 silly gunzTarPerm modified mode [ '.jshintignore', 438, 420 ]
+73 silly lockFile 374ec131-uess-the-Word-node-modules-sleep tar://C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep
+74 silly lockFile 374ec131-uess-the-Word-node-modules-sleep tar://C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep
+75 silly lockFile 2d992fe5-pm-cache-sleep-1-1-3-package-tgz tar://C:\Users\rohitup\AppData\Roaming\npm-cache\sleep\1.1.3\package.tgz
+76 silly lockFile 2d992fe5-pm-cache-sleep-1-1-3-package-tgz tar://C:\Users\rohitup\AppData\Roaming\npm-cache\sleep\1.1.3\package.tgz
+77 info preinstall sleep@1.1.3
+78 verbose readDependencies using package.json deps
+79 verbose readDependencies using package.json deps
+80 verbose cache add [ 'mkdirp@~0.3.5', null ]
+81 verbose cache add name=undefined spec="mkdirp@~0.3.5" args=["mkdirp@~0.3.5",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'mkdirp@~0.3.5',
+82 verbose parsed url   path: 'mkdirp@~0.3.5',
+82 verbose parsed url   href: 'mkdirp@~0.3.5' }
+83 verbose cache add name="mkdirp" spec="~0.3.5" args=["mkdirp","~0.3.5"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '~0.3.5',
+84 verbose parsed url   path: '~0.3.5',
+84 verbose parsed url   href: '~0.3.5' }
+85 verbose addNamed [ 'mkdirp', '~0.3.5' ]
+86 verbose addNamed [ null, '>=0.3.5-0 <0.4.0-0' ]
+87 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+88 verbose lock mkdirp@~0.3.5 C:\Users\rohitup\AppData\Roaming\npm-cache\c3f0fe9b-mkdirp-0-3-5.lock
+89 silly addNameRange { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: false }
+90 verbose url raw mkdirp
+91 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+92 verbose url resolved https://registry.npmjs.org/mkdirp
+93 info trying registry request attempt 1 at 11:44:23
+94 verbose etag "9WIXSIBPOG776UVGT4QG69T4R"
+95 http GET https://registry.npmjs.org/mkdirp
+96 http 304 https://registry.npmjs.org/mkdirp
+97 silly registry.get cb [ 304,
+97 silly registry.get   { date: 'Thu, 13 Feb 2014 06:14:19 GMT',
+97 silly registry.get     server: 'Apache',
+97 silly registry.get     connection: 'Keep-Alive',
+97 silly registry.get     'keep-alive': 'timeout=10, max=50',
+97 silly registry.get     etag: '"9WIXSIBPOG776UVGT4QG69T4R"',
+97 silly registry.get     'cache-control': 'max-age=1',
+97 silly registry.get     vary: 'Accept' } ]
+98 verbose etag mkdirp from cache
+99 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: true }
+100 silly addNameRange versions [ 'mkdirp',
+100 silly addNameRange   [ '0.0.1',
+100 silly addNameRange     '0.0.2',
+100 silly addNameRange     '0.0.3',
+100 silly addNameRange     '0.0.4',
+100 silly addNameRange     '0.0.5',
+100 silly addNameRange     '0.0.6',
+100 silly addNameRange     '0.0.7',
+100 silly addNameRange     '0.1.0',
+100 silly addNameRange     '0.2.0',
+100 silly addNameRange     '0.2.1',
+100 silly addNameRange     '0.2.2',
+100 silly addNameRange     '0.3.0',
+100 silly addNameRange     '0.3.1',
+100 silly addNameRange     '0.3.2',
+100 silly addNameRange     '0.3.3',
+100 silly addNameRange     '0.3.4',
+100 silly addNameRange     '0.3.5' ] ]
+101 verbose addNamed [ 'mkdirp', '0.3.5' ]
+102 verbose addNamed [ '0.3.5', '0.3.5' ]
+103 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+104 verbose lock mkdirp@0.3.5 C:\Users\rohitup\AppData\Roaming\npm-cache\67d2df2a-mkdirp-0-3-5.lock
+105 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+106 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+107 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+108 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+109 silly resolved [ { name: 'mkdirp',
+109 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+109 silly resolved     version: '0.3.5',
+109 silly resolved     author:
+109 silly resolved      { name: 'James Halliday',
+109 silly resolved        email: 'mail@substack.net',
+109 silly resolved        url: 'http://substack.net' },
+109 silly resolved     main: './index',
+109 silly resolved     keywords: [ 'mkdir', 'directory' ],
+109 silly resolved     repository:
+109 silly resolved      { type: 'git',
+109 silly resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+109 silly resolved     scripts: { test: 'tap test/*.js' },
+109 silly resolved     devDependencies: { tap: '~0.4.0' },
+109 silly resolved     license: 'MIT',
+109 silly resolved     readme: '# mkdirp\n\nLike `mkdir -p`, but in node.js!\n\n[![build status](https://secure.travis-ci.org/substack/node-mkdirp.png)](http://travis-ci.org/substack/node-mkdirp)\n\n# example\n\n## pow.js\n\n```js\nvar mkdirp = require(\'mkdirp\');\n    \nmkdirp(\'/tmp/foo/bar/baz\', function (err) {\n    if (err) console.error(err)\n    else console.log(\'pow!\')\n});\n```\n\nOutput\n\n```\npow!\n```\n\nAnd now /tmp/foo/bar/baz exists, huzzah!\n\n# methods\n\n```js\nvar mkdirp = require(\'mkdirp\');\n```\n\n## mkdirp(dir, mode, cb)\n\nCreate a new directory and any necessary subdirectories at `dir` with octal\npermission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\n`cb(err, made)` fires with the error or the first directory `made`\nthat had to be created, if any.\n\n## mkdirp.sync(dir, mode)\n\nSynchronously create a new directory and any necessary subdirectories at `dir`\nwith octal permission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\nReturns the first directory that had to be created, if any.\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install mkdirp\n```\n\n# license\n\nMIT\n',
+109 silly resolved     readmeFilename: 'readme.markdown',
+109 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+109 silly resolved     homepage: 'https://github.com/substack/node-mkdirp',
+109 silly resolved     _id: 'mkdirp@0.3.5',
+109 silly resolved     _from: 'mkdirp@~0.3.5' } ]
+110 info install mkdirp@0.3.5 into C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep
+111 info installOne mkdirp@0.3.5
+112 info C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep\node_modules\mkdirp unbuild
+113 verbose tar unpack C:\Users\rohitup\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+114 silly lockFile 93f121ce-odules-sleep-node-modules-mkdirp tar://C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep\node_modules\mkdirp
+115 verbose lock tar://C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep\node_modules\mkdirp C:\Users\rohitup\AppData\Roaming\npm-cache\93f121ce-odules-sleep-node-modules-mkdirp.lock
+116 silly lockFile 826405b7-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\rohitup\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+117 verbose lock tar://C:\Users\rohitup\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz C:\Users\rohitup\AppData\Roaming\npm-cache\826405b7-m-cache-mkdirp-0-3-5-package-tgz.lock
+118 silly gunzTarPerm modes [ '755', '644' ]
+119 silly gunzTarPerm extractEntry package.json
+120 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+121 silly gunzTarPerm extractEntry .npmignore
+122 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+123 silly gunzTarPerm extractEntry LICENSE
+124 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+125 silly gunzTarPerm extractEntry index.js
+126 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+127 silly gunzTarPerm extractEntry .travis.yml
+128 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+129 silly gunzTarPerm extractEntry examples/pow.js
+130 silly gunzTarPerm modified mode [ 'examples/pow.js', 438, 420 ]
+131 silly gunzTarPerm extractEntry readme.markdown
+132 silly gunzTarPerm modified mode [ 'readme.markdown', 438, 420 ]
+133 silly gunzTarPerm extractEntry test/chmod.js
+134 silly gunzTarPerm modified mode [ 'test/chmod.js', 438, 420 ]
+135 silly gunzTarPerm extractEntry test/perm.js
+136 silly gunzTarPerm modified mode [ 'test/perm.js', 438, 420 ]
+137 silly gunzTarPerm extractEntry test/perm_sync.js
+138 silly gunzTarPerm modified mode [ 'test/perm_sync.js', 438, 420 ]
+139 silly gunzTarPerm extractEntry test/race.js
+140 silly gunzTarPerm modified mode [ 'test/race.js', 438, 420 ]
+141 silly gunzTarPerm extractEntry test/mkdirp.js
+142 silly gunzTarPerm modified mode [ 'test/mkdirp.js', 438, 420 ]
+143 silly gunzTarPerm extractEntry test/return.js
+144 silly gunzTarPerm modified mode [ 'test/return.js', 438, 420 ]
+145 silly gunzTarPerm extractEntry test/return_sync.js
+146 silly gunzTarPerm modified mode [ 'test/return_sync.js', 438, 420 ]
+147 silly gunzTarPerm extractEntry test/root.js
+148 silly gunzTarPerm modified mode [ 'test/root.js', 438, 420 ]
+149 silly gunzTarPerm extractEntry test/sync.js
+150 silly gunzTarPerm modified mode [ 'test/sync.js', 438, 420 ]
+151 silly gunzTarPerm extractEntry test/umask.js
+152 silly gunzTarPerm modified mode [ 'test/umask.js', 438, 420 ]
+153 silly gunzTarPerm extractEntry test/clobber.js
+154 silly gunzTarPerm modified mode [ 'test/clobber.js', 438, 420 ]
+155 silly gunzTarPerm extractEntry test/umask_sync.js
+156 silly gunzTarPerm modified mode [ 'test/umask_sync.js', 438, 420 ]
+157 silly gunzTarPerm extractEntry test/rel.js
+158 silly gunzTarPerm modified mode [ 'test/rel.js', 438, 420 ]
+159 silly lockFile 93f121ce-odules-sleep-node-modules-mkdirp tar://C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep\node_modules\mkdirp
+160 silly lockFile 93f121ce-odules-sleep-node-modules-mkdirp tar://C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep\node_modules\mkdirp
+161 silly lockFile 826405b7-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\rohitup\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+162 silly lockFile 826405b7-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\rohitup\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+163 info preinstall mkdirp@0.3.5
+164 verbose readDependencies using package.json deps
+165 verbose readDependencies using package.json deps
+166 silly resolved []
+167 verbose about to build C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep\node_modules\mkdirp
+168 info build C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep\node_modules\mkdirp
+169 verbose linkStuff [ false,
+169 verbose linkStuff   false,
+169 verbose linkStuff   false,
+169 verbose linkStuff   'C:\\Users\\rohitup\\Desktop\\Guess the Word\\node_modules\\sleep\\node_modules' ]
+170 info linkStuff mkdirp@0.3.5
+171 verbose linkBins mkdirp@0.3.5
+172 verbose linkMans mkdirp@0.3.5
+173 verbose rebuildBundles mkdirp@0.3.5
+174 info install mkdirp@0.3.5
+175 info postinstall mkdirp@0.3.5
+176 verbose about to build C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep
+177 info build C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep
+178 verbose linkStuff [ false,
+178 verbose linkStuff   false,
+178 verbose linkStuff   false,
+178 verbose linkStuff   'C:\\Users\\rohitup\\Desktop\\Guess the Word\\node_modules' ]
+179 info linkStuff sleep@1.1.3
+180 verbose linkBins sleep@1.1.3
+181 verbose linkMans sleep@1.1.3
+182 verbose rebuildBundles sleep@1.1.3
+183 verbose rebuildBundles [ 'mkdirp' ]
+184 info install sleep@1.1.3
+185 verbose unsafe-perm in lifecycle true
+186 info sleep@1.1.3 Failed to exec install script
+187 info C:\Users\rohitup\Desktop\Guess the Word\node_modules\sleep unbuild
+188 info preuninstall sleep@1.1.3
+189 info uninstall sleep@1.1.3
+190 verbose true,C:\Users\rohitup\Desktop\Guess the Word\node_modules,C:\Users\rohitup\Desktop\Guess the Word\node_modules unbuild sleep@1.1.3
+191 info postuninstall sleep@1.1.3
+192 error sleep@1.1.3 install: `node build.js || nodejs build.js`
+192 error Exit status 1
+193 error Failed at the sleep@1.1.3 install script.
+193 error This is most likely a problem with the sleep package,
+193 error not with npm itself.
+193 error Tell the author that this fails on your system:
+193 error     node build.js || nodejs build.js
+193 error You can get their info via:
+193 error     npm owner ls sleep
+193 error There is likely additional logging output above.
+194 error System Windows_NT 6.1.7601
+195 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "sleep" "--save"
+196 error cwd C:\Users\rohitup\Desktop\Guess the Word
+197 error node -v v0.10.25
+198 error npm -v 1.3.24
+199 error code ELIFECYCLE
+200 verbose exit [ 1, true ]
